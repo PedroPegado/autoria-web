@@ -1,0 +1,42 @@
+@font-face{
+    font-family: FontInsta;
+    src: url(billagong.ttf);
+}
+h1{
+    font-family: FontInsta;
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.stories {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin: 40px 20px;
+    border: 5px solid lightgreen;
+    padding: 5px;
+}
+
+.foto {
+    width: 1000px;
+    height: 1000px;
+}
+
+#meustorie {
+    border: 5px solid gray;
+}
+
+#fotoperfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 20px;
+    border: 2px solid purple;
+    padding: 5px;
+}
+
+.arroba {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 200px;
+}
