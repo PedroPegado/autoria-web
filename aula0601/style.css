@@ -1,0 +1,13 @@
+.verde {
+    /* 650 x 120 */
+    background-color: green;
+    width: 350px;
+    height: 120px;
+    left: 150px;
+    display: inline-block;
+}
+
+.branco {
+    color: aliceblue;
+    
+}
