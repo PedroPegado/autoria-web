@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filha {
+    background-color: rgb(194, 194, 194);
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}

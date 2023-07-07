@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.filha {
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
