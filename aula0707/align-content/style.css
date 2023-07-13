@@ -1,0 +1,14 @@
+.pai {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    height: 200px;
+    border: 2px solid blue;
+    flex-wrap: wrap;
+}
+
+.filha {
+    min-height: 20px;
+    width: 100%;
+    border: 2px solid red;
+}
