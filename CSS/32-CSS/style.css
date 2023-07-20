@@ -10,4 +10,80 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    min-width: 100%;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.hero{
+    background-image: url("resources/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-hero{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.texto-hero h2 {
+    width: 100%;
+}
+
+.galeria{
+    width: 1000px;
+}
+
+.galeria img{
+    height: 200px;
+    width: 300px;
+}
+
+.img-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards {
+    background-image: url("resources/img-locations-background.jpg");
+    height: height;
 }
