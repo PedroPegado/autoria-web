@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.side {
+    border: 2px solid black;
+    width: 100px;
+    flex-grow: 1;
+    background-color: rgb(255, 0, 0);
+}
+
+.center {
+    border: 2px solid black;
+    width: 100px;
+    flex-grow: 2;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    justify-content: center;
+}

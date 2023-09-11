@@ -1,0 +1,8 @@
+.container {
+    height: 500px;
+    display: flex;
+    align-items: baseline;
+}
+.filha {
+    border: 2px solid rgb(255, 0, 0);
+}

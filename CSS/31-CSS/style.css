@@ -31,21 +31,44 @@ body {
   /* App Container */
   .container {
     border: 2px solid snow;
+<<<<<<< HEAD
+=======
+    display: flex;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   /* To Do Section */
   .week {
+<<<<<<< HEAD
+=======
+    display: inline-flex;
+    flex-grow: 3;
+    flex-direction: column;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .row {
     min-height: 200px;
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .square {
     width: 125px;
     height: 125px;
     padding: 10px;
+<<<<<<< HEAD
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .day.square {
@@ -67,6 +90,11 @@ body {
   /* Reminders */
   .reminders {
     background-color: khaki;
+<<<<<<< HEAD
+=======
+    display: inline-flex;
+    flex-grow: 2;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .reminders h3 {

@@ -2,7 +2,14 @@ video {
     width: 450px;
     height: 300px;
   }
+<<<<<<< HEAD
   embed{
     height:300px;
     width:450px;
   }
+=======
+embed{
+    height:276px;
+    width:450px;
+  }
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a

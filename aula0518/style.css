@@ -1,0 +1,34 @@
+p {
+    color: blue;
+    font-family: Broadway;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-padrao-simples-com-listras-rosa-pastel_53876-117148.jpg?q=10&h=200');
+}
+
+.ifrn {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#lab{
+    color: darkgreen;
+}
+
+p:hover {
+    color: blueviolet;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+a:visited{
+    color: pink;
+} 

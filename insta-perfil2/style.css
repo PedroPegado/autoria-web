@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 429px;
+    height: 37px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav span {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav i {
+    font-size: 26px;
+}
+
+nav #seta {
+    font-size: 13px;
+}
+
+.icons{
+    width: ;
+}

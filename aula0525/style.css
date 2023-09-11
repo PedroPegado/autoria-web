@@ -1,0 +1,21 @@
+img {
+    height: 300px;
+    width: 100px;
+    border: 5px dotted cyan;
+    padding: 50px 25px 12px 6px;
+}
+
+.bolinha {
+    width: 300px;
+    border-radius: 25%;
+    visibility: hidden;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+.extrapola {
+    overflow: scroll;
+}

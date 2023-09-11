@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+*{
+  margin: 0 auto;
+}
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
 body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
@@ -12,6 +18,10 @@ body {
   .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
+<<<<<<< HEAD
+=======
+    padding: 20px;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .navigation  li.logo {
@@ -25,6 +35,10 @@ body {
     background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
     background-size: cover;
     background-position: bottom center;
+<<<<<<< HEAD
+=======
+    height: 700px;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
     width: 100%;
   }
   
@@ -32,12 +46,24 @@ body {
     position: relative;
     top: 50px;
     margin: 0 auto;
+<<<<<<< HEAD
+=======
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 15px;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   #main {
     padding: 40px;
     text-align: center;
     width: 400px;
+<<<<<<< HEAD
+=======
+    margin: 0 auto;
+    height: 1000px;
+    overflow: scroll;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   h1 {
@@ -52,6 +78,12 @@ body {
     font-size: 14px;
     line-height: 48px;
     text-align: center;
+<<<<<<< HEAD
+=======
+    border: 1px dotted red;
+    padding: 20px 30px;
+    margin: 30px 20px;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   h3 {
@@ -65,9 +97,22 @@ body {
     color: grey;
     font-size: 16px;
     line-height: 48px;
+<<<<<<< HEAD
   }
   
   .pull-quote {
+=======
+    padding: 10px 20px;
+    margin-top: 60px;
+    /* min-width: 200px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 300px; */
+  }
+  
+  .pull-quote {
+    width: 350px;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .byline {
@@ -93,10 +138,22 @@ body {
     color: white;
     display: inline-block;
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    padding: 14px;
+    margin: 10px;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
   
   .share a:hover {
     background: white;
     border: 1px solid red;
     color: red;
+<<<<<<< HEAD
+=======
+  }
+
+  .donate {
+    visibility: hidden;
+>>>>>>> 421023d1dafe441d93fe1123e35870bcaeb5655a
   }
