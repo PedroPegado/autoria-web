@@ -1,8 +1,9 @@
 body{
     background-color: #FFFFFF;
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
+
 .header{
     background-image: url(https://content.codecademy.com/programs/code-foundations-path/airplane.jpeg);
     background-position: center center;
@@ -20,6 +21,7 @@ body{
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
 }
+
 .overlay * {
     position: relative; /* Makes elements display above overlay. */
 }
@@ -42,6 +44,7 @@ h1{
     line-height: 60px;
     margin: 0px;
 }
+
 h2{
     color: #ffffff;
     font-family: 'Open Sans',sans-serif;
@@ -49,6 +52,7 @@ h2{
     font-size: 28px;
     font-weight: 100;
 }
+
 h3{
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
@@ -58,12 +62,14 @@ h3{
     margin: 10px 0px;
     text-align: center;
 }
+
 h4{
     color: #cccccc;
     font-family: 'Quicksand',sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
+
 p{
     color: white;
     font-family: 'Open Sans',sans-serif;
@@ -74,6 +80,7 @@ p{
     text-align: center;
     width: 60%;
 }
+
 .partner{
     padding: 20px;
     text-align: center;
@@ -83,10 +90,12 @@ p{
     background-color: white;
     z-index: 3;
 }
+
 .partner img{
     position: relative;
     top: 6px;
 }
+
 .aa-logo{
     padding-left: 6px;
 }

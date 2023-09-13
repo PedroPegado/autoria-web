@@ -1,0 +1,17 @@
+.pai {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border: 2px solid blue;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+
+.filha {
+    min-height: 20px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
