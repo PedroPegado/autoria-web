@@ -9,13 +9,13 @@
 <body>
     <header>
         <nav>
-            <p class="logo-nome"><a href="">Pedro Pegado</a></p>
+            <p class="logo-nome"><a href="#hero">Pedro Pegado</a></p>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#curiosidades">Curiosidades</a></li>
-                <li><a href="#educacao">Educação</a></li>
-                <li><a href="#causos">Causos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a class="navbar-item" href="#sobre">Sobre</a></li>
+                <li><a class="navbar-item" href="#curiosidades">Curiosidades</a></li>
+                <li><a class="navbar-item" href="#educacao">Educação</a></li>
+                <li><a class="navbar-item" href="#causos">Causos</a></li>
+                <li><a class="navbar-item" href="#habilidades">Habilidades</a></li>
             </ul>
         </nav>
     </header>
@@ -29,20 +29,30 @@
                 <div class="teste">
                     <p class="line subtitle-hero">SEJA BEM-VINDO AO MEU SITE PESSOAL</p>
                 </div>
-                <button class="meet-me-bt">ME CONHEÇA</button>
+                <a id="meet" class="meet-me-bt" href="#sobre">ME CONHEÇA</a>
                 <div class="icons-hero-container">
-                    <i class="fa-solid fa-code purple-icon icon-code-bottom"></i>
-                    <i class="fa-solid fa-code white-icon"></i>
-                    <i class="fa-solid fa-gamepad white-icon"></i>
-                    <i class="fa-solid fa-gamepad purple-icon icon-gamepad-bottom"></i>
+                    <div class="icons-hero1">
+                        <i class="fa-solid fa-code purple-icon icon-code-bottom"></i>
+                        <i class="fa-solid fa-gamepad purple-icon icon-gamepad-bottom"></i>
+
+                    </div>
+                    <div class="icons-hero2">
+                        <i class="fa-solid fa-gamepad white-icon"></i>
+                        <i class="fa-solid fa-code white-icon"></i>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="sobre">
-            <div>
-
+            <div class="about-me-container">
+                <img src="./img/foto-about.jpeg" alt="">
+                <div class="text-about">
+                    <h1>SOBRE MIM</h1>
+                    <p>Me chamo Pedro Henrique Pegado de Sá, tenho 18 anos, meu aniversário é no dia 01 de Julho e moro na cidade de Ceará-Mirim, no estado do Rio Grande do Norte no Brasil, tenho uma paixão por jogos e dublagem, meu maior hobbie é jogar jogos online, principalmente competitivos com amigos e tenho o sonho de me tornar ator/dublador e dublar um grande personagem, caso não aconteça, pretendo seguir a carreira de programador.</p>
+                </div>
             </div>
+
         </section>
         
         <section id="curiosidades">
