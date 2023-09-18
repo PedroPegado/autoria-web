@@ -16,6 +16,8 @@
 header {
     background-color: #111111;
     height: 80px;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -90,9 +92,159 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
 }
 
+.hero-components {
+    max-width: 679px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.title-hero {
+    font-family: press-start;
+    font-size: 48px;
+    color: white;  
+    max-width: 679px;
+    max-height: 96px;
+    margin-top: 221px;
+    text-align: center;
+}
+
+.title-hero span {
+    color: #6D00C3;
+}
+
+.teste {
+    width: 679px;
+}
+
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: white;
+    font-family: press-start;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+
+  .subtitle-hero {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 4s steps(40) 1s normal both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 34em;
+    }
+  }
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+@keyframes decreasing-bt {
+    from {width: 450px;
+    height: 100px;}
+    to {width: 400px;
+        height: 80px;}
+}
+
+.meet-me-bt {
+    width: 400px;
+    height: 80px;
+    background-color: #6D00C3;
+    color: white;
+    font-family: press-start;
+    border-radius: 10px;
+    margin-top: 58px;
+    border: none;
+    transition: .4s;
+    font-size: 24px;
+    animation-name: decreasing-bt;
+    animation-duration: 2s;
+}
+
+.meet-me-bt:hover {
+    color: #6D00C3;
+    background-color: white;
+    width: 420px;
+    font-size: 26px;
+}
+
+.icons-hero-container {
+    max-width: 679px;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    animation: move-up-move-down .5s alternate infinite; 
+}
+
+@keyframes move-up-move-down {
+    from {
+        margin-top: 10px;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
+.purple-icon {
+    color: #6D00C3;
+    margin-top: 250px;
+}
+
+.white-icon {
+    color: white;
+    margin-top: 80px;
+}
+
+@keyframes rotate-left {
+    from {rotate: 0deg;
+    opacity: 0;}
+    to {rotate: -45deg;
+    opacity: 1;}
+}
+
+.fa-code {
+    animation-name: rotate-left;
+    animation-duration: 2s;
+    rotate: -45deg;
+    margin-left: 50px;
+}
+
+@keyframes rotate-right {
+    from {rotate: 0deg;
+    opacity: 0;}
+    to {rotate: 45deg;
+    opacity: 1;}
+  }
+
+.fa-gamepad {
+    animation-name: rotate-right;
+    rotate: 45deg;
+    animation-duration: 2s;
+    margin-right: -30px;
+}
+
+.icon-gamepad-bottom {
+    margin-left: 140px;
+}
 
 @media (max-width: 765px) {
     nav ul {
@@ -107,5 +259,24 @@ a:hover {
     }
     #barras-menu {
         display: block;
+    }
+    .title-hero {
+        font-family: press-start;
+        font-size: 32px;
+        color: white;  
+        max-width: 400px;
+        max-height: 96px;
+    }
+    .icon-gamepad-bottom {
+        margin-left: 0px;
+    }
+    .fa-code {
+        margin-left: 0px;
+    }
+    .fa-gamepad {
+        margin-right: 0px;
+    }
+    .title-hero {
+        margin-top: 180px;
     }
 }
