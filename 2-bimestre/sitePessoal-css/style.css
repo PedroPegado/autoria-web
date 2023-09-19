@@ -389,7 +389,7 @@ a {
 .card-curiosidade:hover {
     width: 520px;
     height: 720px;
-    border: 2px solid white;
+    border: 2px solid #a22cfd;
     color: #6D00C3;
 }
 
@@ -427,35 +427,56 @@ a {
 
 .linha {
     width: 10px;
-    height: 875px;
+    height: 700px;
     background-color: white;
-    margin: 200px 0;
     position: absolute;
 }
 
 .escola {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 50px;
 }
 
-.anchor-linha-purple #texto-escola {
-    margin-left: 50px;
+.escola p {
+    font-size: 20px;
     color: white;
-    opacity: 0;
+    margin-left: 150px;
+    width: 1000px;
+    font-family: press-start;
     transition: .5s;
 }
 
 .anchor-linha-purple {
     position: relative;
-    width: 143px;
-    height: 43px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     background-color: #6D00C3;
     cursor: pointer;
+    transition: .5s;
 }
 
-.anchor-linha-purple #texto-escola:hover #secat{
-    opacity: 0;
+.anchor-linha-purple:hover p{
+    font-size: 25px;
+    color: #6D00C3;
+}
+
+
+.anchor-linha-purple:hover{
+    width: 60px;
+    height: 60px;
+    background-color: #a22cfd;
+}
+
+#banner-causos {
+    max-width: 100%;
+    min-height: 80px;
+    background-image: url('./img/causos.png');
+    background-repeat: repeat-x;
+}
+
+#causos {
+    
 }
 
 @media screen and (max-width:1220px) {
@@ -463,8 +484,9 @@ a {
         display: flex;
         align-items: center;
         flex-direction: column;
-        min-width: 800px;
+        min-width: 50px;
         min-height: 750px;
+        margin: 50px 0px;
     }
     .text-about {
         display: flex;
@@ -472,6 +494,7 @@ a {
         justify-content: center;
         align-items: center;
     }
+
     .about-me-container p {
         font-size: 20px;
         font-family: bebas;
@@ -543,6 +566,23 @@ a {
     .about-me-container img {
         margin-left: 0px;
     }
+
+    .escola p {
+        font-size: 10px;
+        margin-left: 80px;
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    .container-linha-educacao {
+        margin-left: 0px;
+    }
+
+    
+    .anchor-linha-purple:hover p{
+        font-size: 12px;
+        color: #6D00C3;
+    }
 }
 
 @media screen and (max-width:510px){
@@ -576,7 +616,7 @@ a {
     .card-curiosidade:hover {
         width: 320px;
         height: 520px;
-        border: 2px solid white;
+        border: 2px solid #a22cfd;
         color: #6D00C3;
     }
 
@@ -600,5 +640,25 @@ a {
         min-height: 80px;
         background-image: url('./img/educacao.png');
         background-repeat: space;
+    }
+
+    #banner-causos {
+        max-width: 100%;
+        min-height: 80px;
+        background-image: url('./img/causos.png');
+        background-repeat: space;
+    }
+
+    .escola p {
+        font-size: 8px;
+        margin-left: 80px;
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    
+    .anchor-linha-purple:hover p{
+        font-size: 10px;
+        color: #6D00C3;
     }
 }
