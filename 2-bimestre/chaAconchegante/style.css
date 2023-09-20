@@ -3,3 +3,171 @@
     padding: 0;
 }
 
+body, main, header, .cards, .card,.contato, .hero, .texto-hero,.cards-container,.img-galeria {
+    display: flex;
+    align-items: center;
+}
+
+body,main,.contato,.texto-hero,.titulo-galeria,.cards, .card{
+    flex-direction: column;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+    width: auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: underline;
+    color: white;
+}
+
+section {
+    margin-top: 69px;
+    max-width: 1200px;
+}
+
+main {
+    width: 1200px;
+}
+
+.hero {
+    background-image: url('resources/img-mission-background.webp');
+    background-size: cover;
+    height: 700px;
+    inset: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto-hero {
+    background-color: black;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.galeria {
+    max-width: 1000px;
+}
+
+.titulo-galeria h2, h4{
+    margin-bottom: 20px;
+}
+
+.img-galeria img {
+    width: 300px;
+    height: 200px;
+    margin-inline: 15px;
+    margin-bottom: 10px;
+}
+
+.img-galeria figcaption {
+    margin-bottom: 10px;
+}
+
+.img-galeria {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.cards {
+    background-image: url("resources/img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: norepeat;
+    min-height: 600px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-title {
+    margin-bottom: 15px
+}
+
+.cards-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    margin-right: 40px;
+    justify-content: space-evenly;
+    margin: 0 20px 30px;
+}
+
+footer {
+    min-height: 200px;
+}
+
+.contato {
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 0;
+}
+
+.copyright {
+    position: absolute;
+    left: 20px;
+}
+
+@media only screen and (max-width: 1200px){
+    main {
+        width: 100%;
+    }
+    ul a{
+        font-size: 19px;
+    }
+    .card {
+        margin-inline: 0 !important;
+    }
+    .texto-hero {
+        min-height: 100px;
+        height: auto;
+    }
+    .texto-hero h2{
+        padding-top: 8px;
+    }
+    .texto-hero h4{
+        padding-bottom: 8px;
+    }
+}

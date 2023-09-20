@@ -108,13 +108,13 @@ a {
 
 @media screen and (max-width:600px) {
     nav p a {
-        font-size: 10px;
+        font-size: 12px;
     }
     nav ul {
         flex-wrap: wrap;
     }
     nav ul li a {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -659,7 +659,7 @@ footer a {
     color: white;
 }
 
-@media screen and (max-width:1220px) {
+@media screen and (max-width:1520px) {
     .about-me-container {
         display: flex;
         align-items: center;
@@ -683,7 +683,7 @@ footer a {
     }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:1220px) {
     .title-hero {
         margin-top: 120px;
         font-size: 36px;
@@ -714,7 +714,7 @@ footer a {
         display: flex;
         align-items: center;
         flex-direction: column;
-        min-width: 350px;
+        min-width: 0%;
         min-height: 750px;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -781,8 +781,21 @@ footer a {
         margin-left: 0px;
     }
 
+    .escola p {
+        font-size: 12px;
+        margin-left: 80px;
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    
+    .anchor-linha-purple:hover p{
+        font-size: 14px;
+        color: #6D00C3;
+    }
+
     .container-texto-causos {
-        max-width: 350px;
+        min-width: 320px;
         font-size: 16px;
         transition: .5s;
     }
