@@ -236,7 +236,7 @@ footer {
     height: 68px;
     background-color: white;
     position: fixed;
-    bottom: 0;
+    bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,4 +261,14 @@ footer div img {
     height: 35px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+@media screen and (max-width:720px){
+    footer {
+        position: fixed;
+    }
+
+    html {
+        display: block;
+    }
 }
