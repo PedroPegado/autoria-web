@@ -24,6 +24,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: #6D00C3 solid 1px;
 }
 
 nav {
@@ -90,8 +91,8 @@ a {
     left: 0;
     bottom: 0; 
     width: 100%;
-    height: 2px;
-    background-color: #6D00C3; 
+    height: 1px;
+    background-color: white; 
     transform: scaleX(0); 
     transform-origin: bottom left;
     transition: transform 0.3s ease;
@@ -338,7 +339,6 @@ a {
 .about-me-container h1 {
     font-size: 36px;
     font-family: press-start;
-    /* max-width: 350px; */
     margin-top: 13px;
     color: #6D00C3;
 }
@@ -393,8 +393,14 @@ a {
     color: #6D00C3;
 }
 
+.card-curiosidade:hover img {
+    filter: brightness(100%);
+}
+
 .card-curiosidade img {
     object-fit: cover;
+    filter: brightness(50%);
+    transition: .5s;
 }
 
 .card-curiosidade p {
@@ -419,7 +425,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 250px;
     width: 143px;
     height: 875px;
     justify-content: space-around;
@@ -444,6 +450,7 @@ a {
     width: 1000px;
     font-family: press-start;
     transition: .5s;
+    margin-top: 10px;
 }
 
 .anchor-linha-purple {
@@ -476,7 +483,175 @@ a {
 }
 
 #causos {
-    
+    max-width: 100%;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-causos {
+    max-width: 1200px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    box-shadow: 19px 17px 4px 0px rgba(0, 0, 0, 0.25); 
+    transition: .5s;
+}
+
+.card-causos:hover {
+    transform: scale(1.05);
+    background-color: #2A2A2A;
+}
+
+.container-texto-causos {
+    width: 80%;
+    font-family: bebas;
+    font-size: 22px;
+    color: white;
+    font-weight: 100;
+    margin: 50px 0px;
+}
+
+#banner-habilidades {
+    max-width: 100%;
+    min-height: 80px;
+    background-image: url('./img/habilidades.png');
+    background-repeat: repeat-x;
+}
+
+#habilidades {
+    background-color: #111111;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-habilidades {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-habilidades {
+    background-color: #1f1f1f;
+    width: 180px;
+    height: 180px;
+    border-bottom: #6D00C3 solid 4px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .5s;
+    box-shadow: 12px 12px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box-habilidades p{
+    color: #6D00C3;
+    font-family: bebas;
+    font-size: 35px;
+    transition: .5s;
+}
+
+.box-habilidades i{
+    color: #6D00C3;
+    font-size: 40px;
+    transition: .5s;
+}
+
+.box-habilidades:hover {
+    transform: scale(1.1);
+    background-color: #2A2A2A;
+    border-bottom: #a22cfd solid 4px;
+}
+
+.box-habilidades:hover p {
+    color: #a22cfd;
+}
+
+.box-habilidades:hover i {
+    color: #a22cfd;
+}
+
+footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #0a0a0a;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.container-footer {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.contact-circle {
+    background-color: #1f1f1f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.contact-circle:hover {
+    transform: scale(1.1);
+}
+
+.contact-circle:hover .fa-envelope{
+    color: red;
+}
+
+.contact-circle:hover .fa-instagram {
+    color: #e95950;
+}
+
+.contact-circle:hover .fa-github {
+    color: white;
+}
+
+.contact i{
+    color: #6D00C3;
+    font-size: 40px;
+    transition: .5s;
+}
+
+.contact h1 {
+    font-family: press-start;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.contact p {
+    font-family: press-start;
+    margin-top: 20px;
+    font-size: 10px;
+    color: white;
 }
 
 @media screen and (max-width:1220px) {
@@ -583,6 +758,45 @@ a {
         font-size: 12px;
         color: #6D00C3;
     }
+
+    .container-texto-causos {
+        max-width: 350px;
+        font-size: 12px;
+    }
+
+    .card-causos:hover {
+        transform: scale(1.02);
+        background-color: #2A2A2A;
+    }
+
+    .container-habilidades {
+        flex-direction: column;
+    }
+
+    .box-habilidades {
+        margin: 40px 0px;
+    }
+    .contact {
+        margin-right: 10px;
+    }
+
+    .contact-circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact i {
+        font-size: 25px;
+    }
+
+    .contact h1 {
+        font-size: 10px
+    }
+
+    .contact p {
+        font-size: 7px;
+    }
+
 }
 
 @media screen and (max-width:510px){
@@ -611,6 +825,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 30px;
     }
 
     .card-curiosidade:hover {
@@ -660,5 +875,13 @@ a {
     .anchor-linha-purple:hover p{
         font-size: 10px;
         color: #6D00C3;
+    }
+
+    #banner-habilidades {
+        background-color: black;
+        max-width: 100%;
+        min-height: 80px;
+        background-image: url('./img/habilidades.png');
+        background-repeat: space;
     }
 }
