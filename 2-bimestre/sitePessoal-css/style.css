@@ -383,7 +383,7 @@ a {
     flex-wrap: wrap;
     color: white;
     transition: .5s;
-    margin-bottom: 85px;
+    margin-bottom: 50px;
 }
 
 .card-curiosidade:hover {
@@ -505,6 +505,10 @@ a {
     background-color: #2A2A2A;
 }
 
+.card-causos:hover .container-texto-causos {
+    font-size: 24px;
+}
+
 .container-texto-causos {
     width: 80%;
     font-family: bebas;
@@ -512,6 +516,7 @@ a {
     color: white;
     font-weight: 100;
     margin: 50px 0px;
+    transition: .5s;
 }
 
 #banner-habilidades {
@@ -581,7 +586,7 @@ a {
 
 footer {
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     background-color: #0a0a0a;
 }
 
@@ -591,7 +596,7 @@ footer a {
 
 .container-footer {
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -678,7 +683,7 @@ footer a {
     }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:720px) {
     .title-hero {
         margin-top: 120px;
         font-size: 36px;
@@ -742,31 +747,53 @@ footer a {
         margin-left: 0px;
     }
 
-    .escola p {
-        font-size: 10px;
-        margin-left: 80px;
-        width: 250px;
-        margin-top: 10px;
+    .card-curiosidade {
+        width: 300px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .card-curiosidade:hover {
+        width: 320px;
+        height: 520px;
+        border: 2px solid #a22cfd;
+        color: #6D00C3;
+    }
+
+
+    .card-curiosidade img {
+        width: 80%;
+        height: 50%;
+        object-fit: cover;
+    }
+    
+    .card-curiosidade p {
+        font-size: 14px;
+        font-family: press-start;
+        text-align: center;
+        color: white;
     }
 
     .container-linha-educacao {
         margin-left: 0px;
     }
 
-    
-    .anchor-linha-purple:hover p{
-        font-size: 12px;
-        color: #6D00C3;
-    }
-
     .container-texto-causos {
         max-width: 350px;
-        font-size: 12px;
+        font-size: 16px;
+        transition: .5s;
     }
 
     .card-causos:hover {
         transform: scale(1.02);
         background-color: #2A2A2A;
+    }
+
+    .card-causos:hover .container-texto-causos {
+        font-size: 18px;
     }
 
     .container-habilidades {
@@ -776,6 +803,8 @@ footer a {
     .box-habilidades {
         margin: 40px 0px;
     }
+
+
     .contact {
         margin-right: 10px;
     }
@@ -819,36 +848,6 @@ footer a {
         background-repeat: space;
     }
 
-    .card-curiosidade {
-        width: 300px;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-    }
-
-    .card-curiosidade:hover {
-        width: 320px;
-        height: 520px;
-        border: 2px solid #a22cfd;
-        color: #6D00C3;
-    }
-
-
-    .card-curiosidade img {
-        width: 80%;
-        height: 50%;
-        object-fit: cover;
-    }
-    
-    .card-curiosidade p {
-        font-size: 20px;
-        font-family: press-start;
-        text-align: center;
-        color: white;
-    }
-
     #banner-educacao {
         background-color: black;
         max-width: 100%;
@@ -865,7 +864,7 @@ footer a {
     }
 
     .escola p {
-        font-size: 8px;
+        font-size: 10px;
         margin-left: 80px;
         width: 250px;
         margin-top: 20px;
@@ -873,7 +872,7 @@ footer a {
 
     
     .anchor-linha-purple:hover p{
-        font-size: 10px;
+        font-size: 12px;
         color: #6D00C3;
     }
 
